@@ -1,5 +1,5 @@
 CREATE TABLE unique_word (
-    word_id INT NOT NULL AUTO INCREMENT,
+    word_id INT NOT NULL AUTO_INCREMENT,
     word VARCHAR(20),
     word_length INT,
     play_id INT,
@@ -8,7 +8,7 @@ CREATE TABLE unique_word (
 );
 
 CREATE TABLE play (
-    play_id INT NOT NULL AUTO INCREMENT,
+    play_id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(40),
     year SMALLINT,
     description TEXT,
