@@ -49,3 +49,5 @@ class TestUniqueWordInsert(unittest.TestCase):
         query = play_insertion(self.gengangere)
         expected = "INSERT INTO unique_word (word, word_length, play_id) VALUES ('Skinkesteg', 10, 1);"
         self.assertEqual(query, expected)
+
+        
